@@ -1,0 +1,28 @@
+#create EC2 Instance for Ubuntu 16 free trail.
+copy SSH Key
+paste ssh key on windows power shell or git bash
+enter
+admin account is open 
+we're not work on admin a/c
+sudo -i 
+enter
+use this command we're coming to the root a/c
+apt-get update
+#install apache2 in aws cloud
+apt-get install apache2
+enter
+service apache2 status
+
+apache2 is install successfully.
+check 
+open aws console page---->ec2 ---> copy public ip----> paste in google browser----> open one window.
+
+
+In google browser type (get.docker.com)
+
+open one window----> select ----> curl command in line 3 or 4 ----> copy ----> paste git bash on root a/c
+enter
+sh get-docker.sh
+enter
+
+docker is successfull install.
