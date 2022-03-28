@@ -1,0 +1,31 @@
+syntax: #docker run --name containername -d -p port forwarding imagenmae
+
+#docker run --name myc1 -d -p 8081:80 nginx
+docker image and container create succussfully
+
+sea all containers and images
+#docker ps
+
+only container sea
+#docker ps -a -q
+only sea container ids
+#docker ps -q
+
+sea images
+#docker images
+sea all images id
+#docker images -a
+#docker images -a -q
+
+
+delete docker images and containsers
+
+docker rm containername/id -f
+docker rmi imagesname/id
+
+delete all containers at a time
+#docker rm $(docker ps -a -q) -f
+
+delete all images at a time
+#docker rmi $(docker images -a -q)
+
